@@ -1,3 +1,10 @@
 name: It's a Mibbs Wedding!
 markdown: redcarpet
 pygments: true
+
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets
+  display_path: nil
+  gzip: false
