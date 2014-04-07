@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/imathis/guard-jekyll-plus
-  revision: a847946d461198260d854f58f5b6a851f7063e6f
-  branch: master
-  specs:
-    guard-jekyll-plus (1.4.10)
-      guard (~> 1.8.3)
-      jekyll (>= 1.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,10 +29,21 @@ GEM
       lumberjack (>= 1.0.2)
       pry (>= 0.9.10)
       thor (>= 0.14.6)
+    guard-compass (0.0.8)
+      compass (>= 0.10.5)
+      guard (>= 1.8)
+    guard-jekyll-plus (1.4.10)
+      guard (~> 1.8.3)
+      jekyll (>= 1.0.0)
     guard-livereload (1.4.0)
       em-websocket (>= 0.5.0)
       guard (>= 1.8.0)
       multi_json (~> 1.7)
+    guard-rake (0.0.9)
+      guard
+      rake
+    haml (4.0.5)
+      tilt
     highline (1.6.21)
     http_parser.rb (0.5.3)
     jekyll (1.5.1)
@@ -55,9 +57,6 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-asset-pipeline (0.1.2)
-      jekyll (>= 0.10.0)
-      liquid (>= 1.9.0)
     liquid (2.5.5)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -77,16 +76,18 @@ GEM
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rake (10.1.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
     rb-kqueue (0.2.2)
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
-    safe_yaml (1.0.1)
+    safe_yaml (1.0.2)
     sass (3.2.19)
     slop (3.5.0)
     thor (0.19.1)
+    tilt (2.0.1)
     toml (0.1.1)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
@@ -98,9 +99,13 @@ PLATFORMS
 DEPENDENCIES
   compass (~> 0.12.4)
   foundation (~> 1.0.4)
-  guard-jekyll-plus!
+  guard-compass
+  guard-jekyll-plus (~> 1.4.10)
   guard-livereload
+  guard-rake
+  haml
   jekyll (~> 1.5.1)
-  jekyll-asset-pipeline
+  pry
+  rake
   rb-fsevent
   yui-compressor (~> 0.12.0)
