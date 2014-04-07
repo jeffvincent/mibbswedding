@@ -2,7 +2,7 @@
 layout: default
 \---
 
-.full-width#section-1
+.full-width.hero#section-1
   %img{ src: 'images/on_one_knee.jpg' }
   .title-tracks.show-for-large-up
     %h1 Jeff and Marisa are getting married!
@@ -15,6 +15,19 @@ layout: default
     %h2 Longlook Farm, Sanbornten, NH
   
 
+.full-width.nav
+  .row.full-height
+    .large-12.columns.full-height
+      %ul.small-block-grid-4.full-height
+        %li.full-height{:data => {:section => 2}}
+          %a Location
+        %li.full-height{:data => {:section => 3}}
+          %a The Lovely Bride
+        %li.full-height{:data => {:section => 4}}
+          %a The Studly Groom
+        %li.full-height{:data => {:section => 5}}
+          %a Our Engagement
+
 .section#section-2.row
   .column.12
     %h1 Where's it going down?
@@ -24,7 +37,7 @@ layout: default
       a beautiful barn, bar, and lodge near Tilton, NH. It's situated on a whole
       ton of acres, and it's got a great view, pond, the whole deal. 
     %p
-      You're going to love it.
+      You're going to love it, just like we did when we first saw it!
 
 .section#section-3.row
   .column.12
@@ -74,4 +87,10 @@ layout: default
         %a{ href: 'http://jeffvincent.me/were-getting-married' } read my post on the whole adventure
     .row
       .large-8.columns.small-centered
-        <iframe src="//fast.wistia.net/embed/iframe/1f7w3cgcmi?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="960" height="540"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+        <iframe src="//fast.wistia)net/embed/iframe/1f7w3cgcmi?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="960" height="540"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+
+:javascript
+  $('.nav li').on('click', function() {
+    var sectionID = $(this).data('section');
+    $.scrollTo($('#section-' + sectionID), 'slow', {easing: 'swing'});
+  });

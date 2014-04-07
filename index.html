@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class='full-width' id='section-1'>
+<div class='full-width hero' id='section-1'>
   <img src='images/on_one_knee.jpg'>
   <div class='title-tracks show-for-large-up'>
     <h1>Jeff and Marisa are getting married!</h1>
@@ -16,6 +16,26 @@ layout: default
     <h2>Longlook Farm, Sanbornten, NH</h2>
   </div>
 </div>
+<div class='full-width nav'>
+  <div class='row full-height'>
+    <div class='large-12 columns full-height'>
+      <ul class='small-block-grid-4 full-height'>
+        <li class='full-height' data-section='2'>
+          <a>Location</a>
+        </li>
+        <li class='full-height' data-section='3'>
+          <a>The Lovely Bride</a>
+        </li>
+        <li class='full-height' data-section='4'>
+          <a>The Studly Groom</a>
+        </li>
+        <li class='full-height' data-section='5'>
+          <a>Our Engagement</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 <div class='section row' id='section-2'>
   <div class='column 12'>
     <h1>Where's it going down?</h1>
@@ -25,7 +45,7 @@ layout: default
       ton of acres, and it's got a great view, pond, the whole deal.
     </p>
     <p>
-      You're going to love it.
+      You're going to love it, just like we did when we first saw it!
     </p>
   </div>
 </div>
@@ -89,8 +109,14 @@ layout: default
     </p>
     <div class='row'>
       <div class='large-8 columns small-centered'>
-        <iframe src="//fast.wistia.net/embed/iframe/1f7w3cgcmi?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="960" height="540"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+        <iframe src="//fast.wistia)net/embed/iframe/1f7w3cgcmi?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="960" height="540"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
       </div>
     </div>
   </div>
 </div>
+<script>
+  $('.nav li').on('click', function() {
+    var sectionID = $(this).data('section');
+    $.scrollTo($('#section-' + sectionID), 'slow', {easing: 'swing'});
+  });
+</script>

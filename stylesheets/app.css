@@ -20,46 +20,78 @@ body {
 }
 
 /* line 19, ../sass/_custom.sass */
+.nav {
+  background-color: #02a1dd;
+  text-align: center;
+  height: 50px;
+}
+/* line 23, ../sass/_custom.sass */
+.nav ul li {
+  cursor: pointer;
+}
+/* line 25, ../sass/_custom.sass */
+.nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+/* line 31, ../sass/_custom.sass */
+.nav ul li:hover {
+  background-color: yellow;
+}
+/* line 33, ../sass/_custom.sass */
+.nav ul li:hover a {
+  color: #0099cc;
+}
+
+/* line 36, ../sass/_custom.sass */
 .section {
   padding: 40px 0;
 }
-/* line 21, ../sass/_custom.sass */
+/* line 38, ../sass/_custom.sass */
 .section p {
   color: white;
   font-size: 1.6rem;
 }
 
-/* line 25, ../sass/_custom.sass */
+/* line 42, ../sass/_custom.sass */
 .title-tracks {
   position: absolute;
   margin-left: 5%;
   margin-top: 5%;
   top: 0;
 }
-/* line 30, ../sass/_custom.sass */
+/* line 47, ../sass/_custom.sass */
 .title-tracks h1 {
   font-size: 3.75rem;
 }
 
-/* line 33, ../sass/_custom.sass */
+/* line 50, ../sass/_custom.sass */
 .wistia_embed {
   margin-top: 40px;
 }
 
-/* line 36, ../sass/_custom.sass */
+/* line 53, ../sass/_custom.sass */
 .footer {
   background-color: #02a1dd;
   margin-top: 40px;
   padding-top: 40px;
 }
-/* line 40, ../sass/_custom.sass */
+/* line 57, ../sass/_custom.sass */
 .footer ul {
   margin-left: 0;
 }
-/* line 42, ../sass/_custom.sass */
+/* line 59, ../sass/_custom.sass */
 .footer ul li {
   list-style: none;
   color: yellow;
+}
+
+/* line 65, ../sass/_custom.sass */
+.full-height {
+  height: 100% !important;
 }
 
 /* line 260, ../bower_components/foundation/scss/foundation/components/_global.scss */
