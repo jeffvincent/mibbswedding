@@ -3,10 +3,6 @@ guard 'jekyll-plus', extensions: %w[haml yml sass js md html xml txt rb], serve:
   ignore /^_site/
 end
 
-guard 'livereload' do
-  watch /.*/
-end
-
 guard 'rake', :task => 'build' do
   watch(%r{^_layouts/_haml/*})
   watch(%r{^*.haml})

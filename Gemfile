@@ -10,7 +10,6 @@ gem 'haml'
 group :development  do
   gem 'guard-jekyll-plus', '~> 1.4.10'
   gem 'rb-fsevent'
-  gem 'guard-livereload'
   gem 'rake'
   gem 'guard-rake'
   gem 'pry'
