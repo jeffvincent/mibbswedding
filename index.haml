@@ -3,7 +3,6 @@ layout: default
 \---
 
 .full-width.hero#section-1
-  %img{ src: 'images/on_one_knee.jpg' }
   .title-tracks.show-for-large-up
     %h1 Jeff and Marisa are getting married!
     %h2 August 2nd, 2014
@@ -93,4 +92,18 @@ layout: default
   $('.nav li').on('click', function() {
     var sectionID = $(this).data('section');
     $.scrollTo($('#section-' + sectionID), 'slow', {easing: 'swing'});
+  });
+
+  function EasyPeasyParallax() {
+    scrollPos = $(this).scrollTop();
+    $('.title-tracks').css({
+      'margin-top': (scrollPos/4)+"px",
+      'opacity': 1-(scrollPos/250)
+    });
+  }
+
+  $(document).ready(function(){
+    $(window).scroll(function() {
+      EasyPeasyParallax();
+    });
   });

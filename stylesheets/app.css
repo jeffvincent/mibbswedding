@@ -1,35 +1,51 @@
 @import url(http://fonts.googleapis.com/css?family=Exo:400,700);
-/* line 7, ../sass/_custom.sass */
+/* line 8, ../sass/_custom.sass */
 body {
   font-family: "Exo", Georgia, sans-serif;
 }
 
-/* line 10, ../sass/_custom.sass */
+/* line 11, ../sass/_custom.sass */
 .site {
   background-color: #0099cc;
 }
-/* line 12, ../sass/_custom.sass */
+/* line 13, ../sass/_custom.sass */
 .site h1, .site h2 {
   font-weight: bold;
   color: yellow;
 }
-/* line 15, ../sass/_custom.sass */
+/* line 16, ../sass/_custom.sass */
 .site a {
   color: yellow;
   text-decoration: underline;
 }
 
-/* line 19, ../sass/_custom.sass */
+/* line 20, ../sass/_custom.sass */
+.hero {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 900px;
+  background: url("../images/on_one_knee.jpg") center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 31, ../sass/_custom.sass */
 .nav {
   background-color: #02a1dd;
   text-align: center;
   height: 50px;
 }
-/* line 23, ../sass/_custom.sass */
+/* line 35, ../sass/_custom.sass */
 .nav ul li {
   cursor: pointer;
 }
-/* line 25, ../sass/_custom.sass */
+/* line 37, ../sass/_custom.sass */
 .nav ul li a {
   color: white;
   font-weight: bold;
@@ -37,59 +53,60 @@ body {
   position: relative;
   top: 10px;
 }
-/* line 31, ../sass/_custom.sass */
+/* line 43, ../sass/_custom.sass */
 .nav ul li:hover {
   background-color: yellow;
 }
-/* line 33, ../sass/_custom.sass */
+/* line 45, ../sass/_custom.sass */
 .nav ul li:hover a {
   color: #0099cc;
 }
 
-/* line 36, ../sass/_custom.sass */
+/* line 48, ../sass/_custom.sass */
 .section {
   padding: 40px 0;
+  z-index: 2;
+  position: relative;
 }
-/* line 38, ../sass/_custom.sass */
+/* line 52, ../sass/_custom.sass */
 .section p {
   color: white;
   font-size: 1.6rem;
 }
 
-/* line 42, ../sass/_custom.sass */
+/* line 56, ../sass/_custom.sass */
 .title-tracks {
   position: absolute;
   margin-left: 5%;
-  margin-top: 5%;
-  top: 0;
+  top: 20%;
 }
-/* line 47, ../sass/_custom.sass */
+/* line 60, ../sass/_custom.sass */
 .title-tracks h1 {
   font-size: 3.75rem;
 }
 
-/* line 50, ../sass/_custom.sass */
+/* line 63, ../sass/_custom.sass */
 .wistia_embed {
   margin-top: 40px;
 }
 
-/* line 53, ../sass/_custom.sass */
+/* line 66, ../sass/_custom.sass */
 .footer {
   background-color: #02a1dd;
   margin-top: 40px;
   padding-top: 40px;
 }
-/* line 57, ../sass/_custom.sass */
+/* line 70, ../sass/_custom.sass */
 .footer ul {
   margin-left: 0;
 }
-/* line 59, ../sass/_custom.sass */
+/* line 72, ../sass/_custom.sass */
 .footer ul li {
   list-style: none;
   color: yellow;
 }
 
-/* line 65, ../sass/_custom.sass */
+/* line 78, ../sass/_custom.sass */
 .full-height {
   height: 100% !important;
 }
