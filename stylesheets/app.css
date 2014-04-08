@@ -44,8 +44,16 @@ body {
 /* line 35, ../sass/_custom.sass */
 .nav ul li {
   cursor: pointer;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
 }
-/* line 37, ../sass/_custom.sass */
+/* line 39, ../sass/_custom.sass */
 .nav ul li a {
   color: white;
   font-weight: bold;
@@ -53,60 +61,60 @@ body {
   position: relative;
   top: 10px;
 }
-/* line 43, ../sass/_custom.sass */
+/* line 45, ../sass/_custom.sass */
 .nav ul li:hover {
   background-color: yellow;
 }
-/* line 45, ../sass/_custom.sass */
+/* line 47, ../sass/_custom.sass */
 .nav ul li:hover a {
   color: #0099cc;
 }
 
-/* line 48, ../sass/_custom.sass */
+/* line 50, ../sass/_custom.sass */
 .section {
   padding: 40px 0;
   z-index: 2;
   position: relative;
 }
-/* line 52, ../sass/_custom.sass */
+/* line 54, ../sass/_custom.sass */
 .section p {
   color: white;
   font-size: 1.6rem;
 }
 
-/* line 56, ../sass/_custom.sass */
+/* line 58, ../sass/_custom.sass */
 .title-tracks {
   position: absolute;
   margin-left: 5%;
   top: 20%;
 }
-/* line 60, ../sass/_custom.sass */
+/* line 62, ../sass/_custom.sass */
 .title-tracks h1 {
   font-size: 3.75rem;
 }
 
-/* line 63, ../sass/_custom.sass */
+/* line 65, ../sass/_custom.sass */
 .wistia_embed {
   margin-top: 40px;
 }
 
-/* line 66, ../sass/_custom.sass */
+/* line 68, ../sass/_custom.sass */
 .footer {
   background-color: #02a1dd;
   margin-top: 40px;
   padding-top: 40px;
 }
-/* line 70, ../sass/_custom.sass */
+/* line 72, ../sass/_custom.sass */
 .footer ul {
   margin-left: 0;
 }
-/* line 72, ../sass/_custom.sass */
+/* line 74, ../sass/_custom.sass */
 .footer ul li {
   list-style: none;
   color: yellow;
 }
 
-/* line 78, ../sass/_custom.sass */
+/* line 80, ../sass/_custom.sass */
 .full-height {
   height: 100% !important;
 }
