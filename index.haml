@@ -17,7 +17,7 @@ layout: default
 .full-width.nav
   .row.full-height
     .large-12.columns.full-height
-      %ul.small-block-grid-4.full-height
+      %ul.small-block-grid-5.full-height
         %li.full-height{:data => {:section => 2}}
           %a Location
         %li.full-height{:data => {:section => 3}}
@@ -26,6 +26,8 @@ layout: default
           %a The Studly Groom
         %li.full-height{:data => {:section => 5}}
           %a Our Engagement
+        %li.full-height{:data => {:section => 6}}
+          %a More Us
 
 .section#section-2.row
   .column.12
@@ -88,6 +90,24 @@ layout: default
     .row
       .large-8.columns.small-centered
         <iframe src="//fast.wistia.net/embed/iframe/1f7w3cgcmi?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="960" height="540"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+
+.section#section-5.row
+  .large-12.columns
+    %h1 More Us
+    %p
+      Want more us? We thought you'd never ask :)
+
+  .row
+    .large-8.columns.small-centered
+      %ul.image-carousel{"data-orbit" => ""}
+        %li
+          %img{src: '../images/IMG_4539.JPG', alt: 'slide 1'}
+        %li
+          %img{src: '../images/IMG_5685.JPG', alt: 'slide 2'}
+        %li
+          %img{src: '../images/IMG_5687.JPG', alt: 'slide 3'}
+        %li
+          %img{src: '../images/IMG_5701.JPG', alt: 'slide 4'}
 
 :javascript
   $('.nav li').on('click', function() {

@@ -16,11 +16,15 @@ body {
 }
 /* line 17, ../sass/_custom.sass */
 .site a {
-  color: yellow;
+  color: white;
   text-decoration: underline;
 }
+/* line 20, ../sass/_custom.sass */
+.site a:hover {
+  color: yellow;
+}
 
-/* line 21, ../sass/_custom.sass */
+/* line 24, ../sass/_custom.sass */
 .hero {
   position: relative;
   left: 0;
@@ -36,13 +40,13 @@ body {
   overflow: hidden;
 }
 
-/* line 32, ../sass/_custom.sass */
+/* line 35, ../sass/_custom.sass */
 .nav {
   background-color: #02a1dd;
   text-align: center;
   height: 50px;
 }
-/* line 36, ../sass/_custom.sass */
+/* line 39, ../sass/_custom.sass */
 .nav ul li {
   cursor: pointer;
   -webkit-transition: all 1s;
@@ -54,7 +58,7 @@ body {
   -o-transition-duration: 0.25s;
   transition-duration: 0.25s;
 }
-/* line 40, ../sass/_custom.sass */
+/* line 43, ../sass/_custom.sass */
 .nav ul li a {
   color: white;
   font-weight: bold;
@@ -62,60 +66,60 @@ body {
   position: relative;
   top: 10px;
 }
-/* line 46, ../sass/_custom.sass */
+/* line 49, ../sass/_custom.sass */
 .nav ul li:hover {
   background-color: yellow;
 }
-/* line 48, ../sass/_custom.sass */
+/* line 51, ../sass/_custom.sass */
 .nav ul li:hover a {
   color: #0099cc;
 }
 
-/* line 51, ../sass/_custom.sass */
+/* line 54, ../sass/_custom.sass */
 .section {
   padding: 40px 0;
   z-index: 2;
   position: relative;
 }
-/* line 55, ../sass/_custom.sass */
+/* line 58, ../sass/_custom.sass */
 .section p {
   color: white;
   font-size: 1.6rem;
 }
 
-/* line 59, ../sass/_custom.sass */
+/* line 62, ../sass/_custom.sass */
 .title-tracks {
   position: absolute;
   margin-left: 5%;
   top: 15%;
 }
-/* line 63, ../sass/_custom.sass */
+/* line 66, ../sass/_custom.sass */
 .title-tracks h1 {
   font-size: 3.75rem;
 }
 
-/* line 66, ../sass/_custom.sass */
+/* line 69, ../sass/_custom.sass */
 .wistia_embed {
   margin-top: 40px;
 }
 
-/* line 69, ../sass/_custom.sass */
+/* line 72, ../sass/_custom.sass */
 .footer {
   background-color: #02a1dd;
   margin-top: 40px;
   padding-top: 40px;
 }
-/* line 73, ../sass/_custom.sass */
+/* line 76, ../sass/_custom.sass */
 .footer ul {
   margin-left: 0;
 }
-/* line 75, ../sass/_custom.sass */
+/* line 78, ../sass/_custom.sass */
 .footer ul li {
   list-style: none;
   color: yellow;
 }
 
-/* line 81, ../sass/_custom.sass */
+/* line 84, ../sass/_custom.sass */
 .full-height {
   height: 100% !important;
 }

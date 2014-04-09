@@ -30,7 +30,6 @@
     "commit": "05035fc5cc591ecdb08c914ec8f231b99af55800"
   },
   "_source": "git://github.com/flesler/jquery.scrollTo.git",
-  "_target": "~1.4.11",
-  "_originalSource": "jquery.scrollTo",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "git://github.com/flesler/jquery.scrollTo.git"
 }
