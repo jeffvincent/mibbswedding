@@ -2,19 +2,21 @@
 layout: default
 \---
 
-.full-width.hero#section-1
-  .title-tracks.show-for-large-up
+.full-width.hero.show-for-large-up#section-1
+  .title-tracks
     %h1 Jeff and Marisa are getting married!
     %h2 August 1st, 2015
     %h2 Longlook Farm, Sanbornton, NH
 .section.row.hide-for-large-up
-  .column.12
+  .large-8.columns.centered.full-width
+    %img{ src: '../images/on_one_knee.jpg' }
+  .column.12{ style: 'padding-top: 20px;' }
     %h1 Jeff and Marisa are getting married!
-    %h2 August 1nd, 2015
-    %h2 Longlook Farm, Sanbornten, NH
+    %h2 August 1st, 2015
+    %h2 Longlook Farm, Sanbornton, NH
   
 
-.full-width.nav
+.full-width.nav.show-for-large-up
   .row.full-height
     .large-12.columns.full-height
       %ul.small-block-grid-5.full-height
@@ -44,7 +46,7 @@ layout: default
   .column.12
     %h1 The Bride
     .row
-      .large-3.columns
+      .large-3.columns{ style: 'text-align: center;' }
         %img{ src: "/images/bride.png", width: "300" }
       .large-9.columns
         %p
@@ -54,7 +56,7 @@ layout: default
   .large-12.columns
     %h1 The Groom
     .row
-      .large-3.columns
+      .large-3.columns{ style: 'text-align: center;' }
         %img{ src: "/images/groom.png", width: "300" }
       .large-9.columns
         %p
@@ -92,7 +94,7 @@ layout: default
       = succeed '.' do
         %a{ href: 'http://jeffvincent.me/were-getting-married' } read my post on the whole adventure
     .row
-      .large-8.columns.small-centered
+      .large-8.columns.small-centered.full-width
         <iframe src="//fast.wistia.net/embed/iframe/1f7w3cgcmi?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="960" height="540"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 
 .section#section-5.row
