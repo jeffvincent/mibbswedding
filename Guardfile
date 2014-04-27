@@ -1,11 +1,11 @@
-guard 'jekyll-plus', extensions: %w[haml yml sass js md html xml txt rb], serve: true do
-  watch(/.*/)
-  ignore /^_site/
-end
-
 guard 'rake', :task => 'build' do
   watch(%r{^_layouts/_haml/*})
   watch(%r{^*.haml})
+end
+
+guard 'jekyll-plus', extensions: %w[haml yml sass js md html xml txt rb], serve: true do
+  watch(/.*/)
+  ignore /^_site/
 end
 
 # Guard::Compass
