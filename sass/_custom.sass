@@ -1,5 +1,5 @@
 @import "compass/css3"
-@import url(http://fonts.googleapis.com/css?family=Exo:400,700)
+//@import url(http://fonts.googleapis.com/css?family=Exo:400,700)
 
 $yellow: yellow
 $dark-blue: #0099cc
@@ -57,7 +57,9 @@ body
   position: relative
   p
     color: white
-    font-size: 1.4rem
+    font-size: 1.2rem
+    @media #{$medium-up}
+      font-size: 1.6rem
 
 .title-tracks
   position: absolute
