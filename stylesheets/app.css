@@ -7812,28 +7812,32 @@ body {
   font-family: "Exo", Georgia, sans-serif;
 }
 /* line 20, ../sass/_custom.sass */
+.site h1 {
+  margin-bottom: 30px;
+}
+/* line 22, ../sass/_custom.sass */
 .site h3 {
   font-size: 1.6rem;
 }
-/* line 22, ../sass/_custom.sass */
+/* line 24, ../sass/_custom.sass */
 .site a {
   text-decoration: underline;
 }
-/* line 24, ../sass/_custom.sass */
+/* line 26, ../sass/_custom.sass */
 .site a:hover {
   color: yellow;
 }
-/* line 26, ../sass/_custom.sass */
+/* line 28, ../sass/_custom.sass */
 .site ul {
   font-size: 20px;
 }
-/* line 28, ../sass/_custom.sass */
+/* line 30, ../sass/_custom.sass */
 .site ul.no-bullets {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 33, ../sass/_custom.sass */
+/* line 35, ../sass/_custom.sass */
 .hero {
   position: relative;
   left: 0;
@@ -7849,13 +7853,13 @@ body {
   overflow: hidden;
 }
 
-/* line 44, ../sass/_custom.sass */
+/* line 46, ../sass/_custom.sass */
 .nav {
   background-color: #02a1dd;
   text-align: center;
   height: 50px;
 }
-/* line 48, ../sass/_custom.sass */
+/* line 50, ../sass/_custom.sass */
 .nav ul li {
   cursor: pointer;
   -webkit-transition: all 1s;
@@ -7867,7 +7871,7 @@ body {
   -o-transition-duration: 0.25s;
   transition-duration: 0.25s;
 }
-/* line 52, ../sass/_custom.sass */
+/* line 54, ../sass/_custom.sass */
 .nav ul li a {
   color: white;
   font-weight: bold;
@@ -7875,70 +7879,70 @@ body {
   position: relative;
   top: 10px;
 }
-/* line 58, ../sass/_custom.sass */
+/* line 60, ../sass/_custom.sass */
 .nav ul li:hover {
   background-color: yellow;
 }
-/* line 60, ../sass/_custom.sass */
+/* line 62, ../sass/_custom.sass */
 .nav ul li:hover a {
   color: #0099cc;
 }
 
-/* line 63, ../sass/_custom.sass */
+/* line 65, ../sass/_custom.sass */
 .section {
   padding: 40px 0;
   z-index: 2;
   position: relative;
 }
-/* line 67, ../sass/_custom.sass */
+/* line 69, ../sass/_custom.sass */
 .section p {
   color: white;
   font-size: 1.2rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 67, ../sass/_custom.sass */
+  /* line 69, ../sass/_custom.sass */
   .section p {
     font-size: 1.6rem;
   }
 }
 
-/* line 73, ../sass/_custom.sass */
+/* line 75, ../sass/_custom.sass */
 .title-tracks {
   position: absolute;
   margin-left: 5%;
   top: 15%;
 }
-/* line 77, ../sass/_custom.sass */
+/* line 79, ../sass/_custom.sass */
 .title-tracks h1 {
   font-size: 3.75rem;
 }
 
-/* line 80, ../sass/_custom.sass */
+/* line 82, ../sass/_custom.sass */
 .wistia_embed {
   margin-top: 40px;
 }
 
-/* line 83, ../sass/_custom.sass */
+/* line 85, ../sass/_custom.sass */
 .footer {
   background-color: #02a1dd;
   padding-top: 20px;
 }
-/* line 86, ../sass/_custom.sass */
+/* line 88, ../sass/_custom.sass */
 .footer ul {
   margin-left: 0;
 }
-/* line 88, ../sass/_custom.sass */
+/* line 90, ../sass/_custom.sass */
 .footer ul li {
   list-style: none;
   color: yellow;
 }
 
-/* line 94, ../sass/_custom.sass */
+/* line 96, ../sass/_custom.sass */
 .full-height {
   height: 100% !important;
 }
 
-/* line 97, ../sass/_custom.sass */
+/* line 99, ../sass/_custom.sass */
 .full-width {
   padding: 0 !important;
 }
