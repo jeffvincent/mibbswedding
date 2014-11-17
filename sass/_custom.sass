@@ -14,11 +14,20 @@ body
     font-weight: bold
     color: yellow
     text-shadow: 1px 1px 1px #BBB
-  a
+  h3, a, ul
     color: white
+    font-family: 'Exo', Georgia, sans-serif
+  h3
+    font-size: 1.6rem
+  a
     text-decoration: underline
     &:hover
       color: $yellow
+  ul
+    font-size: 20px
+    &.no-bullets
+      list-style: none
+      margin-left: 0
 
 
 .hero
