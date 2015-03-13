@@ -7798,7 +7798,7 @@ body {
 
 /* line 11, ../sass/_custom.sass */
 .site {
-  background-color: #0099cc;
+  background-color: #4030e8;
 }
 /* line 13, ../sass/_custom.sass */
 .site h1, .site h2 {
@@ -7855,7 +7855,7 @@ body {
 
 /* line 46, ../sass/_custom.sass */
 .nav {
-  background-color: #02a1dd;
+  background-color: #5547eb;
   text-align: center;
   height: 50px;
 }
@@ -7885,7 +7885,7 @@ body {
 }
 /* line 62, ../sass/_custom.sass */
 .nav ul li:hover a {
-  color: #0099cc;
+  color: #4030e8;
 }
 
 /* line 65, ../sass/_custom.sass */
@@ -7924,7 +7924,7 @@ body {
 
 /* line 85, ../sass/_custom.sass */
 .footer {
-  background-color: #02a1dd;
+  background-color: #5547eb;
   padding-top: 20px;
 }
 /* line 88, ../sass/_custom.sass */
